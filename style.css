@@ -1,0 +1,121 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+html, body{
+    font-family: 'Karla', Italic;
+ } autre méthode pour la font */ 
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #111;
+    background: rgb(255, 255, 255);
+  }
+
+ header {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+ }
+ 
+ nav a {
+   margin-left: 20px;
+   text-decoration: none;
+   color: black;
+ }
+
+ .logo img {   
+   width: 80px;
+   height: 80px;
+   display: flex;
+   
+  }
+
+ .intro {
+   display: flex;
+   justify-content: space-between;
+   padding: 40px;
+ }
+ 
+ .intro .text {
+   max-width: 50%;
+ }
+
+ .intro .photo1 img {
+   width: 200px;
+   height: 300px;
+   
+ }
+ 
+ button {
+   margin-top: 20px;
+   padding: 10px 20px;
+   background-color: black;
+   color: white;
+   border: none;   
+ }
+
+ .skills{
+   display: flex;
+   justify-content: space-around;
+   padding: 50px;
+   background: rgb(0, 0, 0);
+   color: #ffffff;
+   text-decoration: none;
+
+ }
+
+.projects{
+   padding: 40px;
+}
+
+.gallery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   justify-content: center;
+   text-decoration: none;
+
+}
+
+.projects h2 {
+   text-decoration: none;
+   color: #111;
+
+}
+
+/*.gallery a {
+   width: calc(33% - 20px);
+   text-decoration: none;
+   color: black;
+ }
+ 
+ .gallery img {
+   width: 100%;
+   height: auto;
+ } a testter */
+
+ .contact{
+   padding: 40px;
+   align-items: center;
+   text-align: center;
+ }
+
+ .contact .socials {
+   padding: 15px;
+   margin: 10px;
+
+
+ }
+
+
+
+
+  
+
+  
+
+
+  
+ 
