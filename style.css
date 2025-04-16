@@ -3,110 +3,146 @@
 html, body{
     font-family: 'Karla', Italic;
  } autre méthode pour la font */ 
+ html {
+   scroll-behavior: smooth;
+ }
+ 
+.imagedefond { 
+  
+  background-image: url("assets/background1.png");
+  background-color : hsla(0, 0%, 0%, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
 
- body {
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #111;
-    background: rgb(255, 255, 255);
+    scroll-behavior: smooth;
   }
 
- header {
+
+header {
    display: flex;
    justify-content: space-between;
    padding: 20px;
    align-items: center;
  }
  
- nav a {
+nav a {
    margin-left: 20px;
    text-decoration: none;
-   color: black;
+   color: rgb(255, 255, 255);
+   background-color : hsla(0, 0%, 0%, 0.6);
+   padding: 10px 20px;
  }
 
- .logo img {   
+.logo img {   
    width: 80px;
    height: 80px;
    display: flex;
    
   }
 
- .intro {
+.intro {
    display: flex;
    justify-content: space-between;
    padding: 40px;
- }
- 
- .intro .text {
-   max-width: 50%;
+   
  }
 
- .intro .photo1 img {
-   width: 200px;
+ 
+.intro .text {
+   max-width: 50%;
+   background-color : hsla(0, 0%, 0%, 0.6);
+   color: #ffffff;
+   /*border-radius: 10px;*/
+   padding: 10px 20px;
+ }
+
+.intro .photo1 img {
+   width: 300px;
    height: 300px;
    
  }
  
- button {
+button {
    margin-top: 20px;
    padding: 10px 20px;
-   background-color: black;
-   color: white;
-   border: none;   
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   border: none;  
+   border-radius: 10px;
  }
 
- .skills{
+.skills {
    display: flex;
    justify-content: space-around;
    padding: 50px;
    background: rgb(0, 0, 0);
    color: #ffffff;
    text-decoration: none;
-
- }
-
-.projects{
-   padding: 40px;
-}
-
-.gallery {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 5px;
-   justify-content: center;
-   text-decoration: none;
-
-}
+   text-align: center;  
+  }
 
 .projects h2 {
-   text-decoration: none;
-   color: #111;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center; 
+  background-color : hsla(0, 0%, 0%, 0.6);
+  border-radius: 10px;     
+ } 
 
+
+.projects {
+   padding: 40px;   
 }
 
-/*.gallery a {
-   width: calc(33% - 20px);
-   text-decoration: none;
-   color: black;
+.gallery{
+  display: flex;
+}
+
+.gallery2 {
+  Display: flex; 
+  justify-content: center; 
+  gap: 5px; 
+  flex-wrap: wrap; 
+  margin-top: 20px;
+  background-color : hsla(0, 0%, 0%, 0.6);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.gallery2 img { 
+  width: 100%; 
+  border-radius: 10px;  
+  width : 200px;
+  height : 300px;
+  }
+
+.gallery2 p{
+  text-align: center;    
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.contact {
+  padding: 40px;
+  align-items : center;
+  text-align : center;
+  background-color : hsla(0, 0%, 0%, 0.6);
+  color: #ffffff;
+  border-radius: 10px;
  }
- 
- .gallery img {
-   width: 100%;
-   height: auto;
- } a testter */
 
- .contact{
-   padding: 40px;
-   align-items: center;
-   text-align: center;
- }
-
- .contact .socials {
-   padding: 15px;
-   margin: 10px;
-
-
+.contact .socials {
+  padding: 15px;
+  margin: 10px;
  }
 
 
